@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 </html>
-<title>login Serendipty</title>
+<title>login Elmusic</title>
 <link rel="stylesheet" type="text/css" href="style.css"
 </head>
 <body>
     <div class="login-box">
         <img src="oppa.jpeg" class="oppa">
-        <h1>Login Here Serendipty</h1>
+        <h1>Login Here Elmusic</h1>
         <form>
             <input type="text" name="username" placeholder="Enter username">
             <p> password</p>
@@ -17,6 +17,41 @@
         </form>
 
     </div>
+    <tittle>music player</tittle>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="main">
+            <p id="logo"><i class="fa-duotone fa-music"></i>
+                
+                
+                <!--- left part --->
+                <div class="left">
 
+                    <!---song.image-->
+                    <div class="volume">
+
+                    <img id="track_image">
+                    <div class="volume">
+
+                    <p id="volume_show">90</p>
+                    <i class="fa fa-volume-up" aria-hidden="true" id="volume_icon" onclick="mute_sound()"></i>
+                    <input type="range" min="0" max="100" value="90" onchange="volume_change()">
+                </div>
+                </div>
+
+                <!---right part-->
+                <div class="right">
+                    <div class="show_song_no">
+                        <p id="present"></p>
+                    </div>
+                </div>
+
+            </p>
+        </div>
+    </body>
+    </html>
 </body>
 </html>
