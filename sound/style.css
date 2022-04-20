@@ -36,10 +36,10 @@
     flex: 1;
   }
   .pad1 {
-    background: #f7bbd9;
+    background: #800208
   }
   .pad2 {
-    background: #d36060;
+    background: #ddf314;
   }
   .pad3 {
     background: #c060d3;
@@ -51,7 +51,7 @@
     background: #46d0e9;
   }
   .pad6 {
-    background: #ebf377;
+    background: #09d847;
   }
   
   .visual > div {
